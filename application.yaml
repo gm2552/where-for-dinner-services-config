@@ -5,6 +5,8 @@ spring:
 where-for-dinner:
   searchEvent:
     period: 5000
+    test: 'This is a test'
+
 
 ---
 spring:
