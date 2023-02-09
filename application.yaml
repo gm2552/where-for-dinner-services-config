@@ -1,3 +1,15 @@
+---
+spring:
+  config.activate.on-profile: search
+
+where-for-dinner:
+  searchEvent:
+    period: 5000
+
+---
+spring:
+  config.activate.on-profile: crawler
+
 where-for-dinner:
   randomsearcher:
     establishments:
