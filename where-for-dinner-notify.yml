@@ -11,7 +11,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: abareasol@gmail.com
-    password: myphonypassword
+    password: '{cipher}0265667ebdd7a0f49b8bad84fe68c04ebe272fbde4f218d2b3ddf29438e53300'
     properties:
       mail:
         smtp:
