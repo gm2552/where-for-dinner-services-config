@@ -1,3 +1,3 @@
 where-for-dinner:
   searchEvent:
-    period: 45000
+    period: 30000
