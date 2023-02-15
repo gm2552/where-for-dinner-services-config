@@ -8,8 +8,8 @@ where-for-dinner:
       
 spring:
   mail:
-    host: smtp-server.kc.rr.com
-    port: 25
+    host: mail.twc.com
+    port: 587
     username: gmeyer2@kc.rr.com
     password: '{cipher}16b1148dab352da5b83db4be00add086a6d286b566884cb879a1556301a5ef4e'
     properties:
