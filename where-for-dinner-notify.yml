@@ -3,15 +3,15 @@ where-for-dinner:
     email:
       enabled: true
       to: meyerg@vmware.com
-      from: abareasol@gmail.com
+      from: gmeyer2@kc.rr.com
       subject: 'You have new dining options available.'
       
 spring:
   mail:
-    host: smtp.gmail.com
-    port: 587
-    username: abareasol@gmail.com
-    password: '{cipher}e2e24936e10b668462c3e1d93d97d7de1f3f8662763cc9651e36d8d054c645ae'
+    host: smtp-server.kc.rr.com
+    port: 25
+    username: gmeyer2@kc.rr.com
+    password: '{cipher}16b1148dab352da5b83db4be00add086a6d286b566884cb879a1556301a5ef4e'
     properties:
       mail:
         smtp:
