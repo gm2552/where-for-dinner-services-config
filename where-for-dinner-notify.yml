@@ -1,0 +1,20 @@
+where-for-dinner:
+  notifications:
+    email:
+      enabled: true
+      to: meyerg@vmware.com
+      from: abareasol@gmail.com
+      subject: 'You have new dining options available.'
+      
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: abareasol@gmail.com
+    password: myphonypassword
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
