@@ -18,3 +18,12 @@ spring:
           auth: true
           starttls:
             enable: true
+
+  cloud:
+    discovery:
+      client:
+        simple: 
+          instances:
+            service1: 
+              - uri: http://service-1.com
+              - uri: http://service-2.com
