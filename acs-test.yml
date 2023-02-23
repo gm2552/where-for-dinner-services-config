@@ -1,9 +1,11 @@
-spring:
-  cloud:
-    discovery:
-      client:
-        simple: 
-          instances:
-            service-1: 
-              - uri: http://service-1.com
-              - uri: http://service-2.com
+#spring:
+#  cloud:
+#    discovery:
+#      client:
+#        simple: 
+#          instances:
+#            service-1: 
+#              - uri: http://service-1.com
+#              - uri: http://service-2.com
+
+acs-service-id: service-2
