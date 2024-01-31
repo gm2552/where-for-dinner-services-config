@@ -11,7 +11,7 @@ spring:
     host: mail.twc.com
     port: 587
     username: gmeyer2@kc.rr.com
-    password: '{cipher}16b1148dab352da5b83db4be00add086a6d286b566884cb879a1556301a5ef4e'
+    password: '{cipher}91755863179e5cfaf975ac7112cb15ff44ab394f6f919cfba65d903479f4d63f'
     properties:
       mail:
         smtp:
